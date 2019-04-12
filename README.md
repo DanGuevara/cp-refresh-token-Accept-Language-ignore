@@ -34,3 +34,9 @@ curl -H "Authorization: Bearer 36227380-833a-4147-884d-87c9dcfe4d92" -X GET http
 ```
 en
 ```
+6. Проверить язык сессии с помощью rest-api
+```
+curl -H "Authorization: Bearer 36227380-833a-4147-884d-87c9dcfe4d92" -X GET http://localhost:8080/app/rest/v2/services/demo_NewService/get
+```
+В ответ вернётся язык системы по умолчанию, даже если был добавлен фильтр cuba_RestLastSecurityFilter.
+

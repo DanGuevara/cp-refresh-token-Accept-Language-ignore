@@ -10,6 +10,8 @@
                   ref="cuba_ServerSelector"/>
         <property name="remoteServices">
             <map>
+                <entry key="demo_NewService"
+                       value="com.company.demo.service.NewService"/>
             </map>
         </property>
     </bean>

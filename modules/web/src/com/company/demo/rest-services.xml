@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<services xmlns="http://schemas.haulmont.com/cuba/rest-services-v2.xsd">
+    <service name="demo_NewService">
+        <method name="get"/>
+    </service>
+    <service name="demo_NewService">
+        <method name="get">
+        </method>
+    </service>
+</services>
